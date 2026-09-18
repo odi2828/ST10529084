@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make an Enquiry | Sweet Crumbs Bakery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Website header-->
+    <header>
+        <h1>Sweet Crumbs Bakery</h1>
+        <!--Main navigation-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+    <!--Main Website Content-->
+    <main>
+        <section class="enquiry-intro">
+            <h2>Make an enquiry</h2>
+            <p>
+                Interested in ordering from Sweet Crumbs Bakery?<br>
+                Complete the enquiry form below and provide details<br>
+                about your order or event.
+            </p>
+        </section>
+        <section class="enquiry-form-section">
+            <h2>Order Enquiry Form</h2>
+            <form>
+                <label for="name">Full name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <br><br>
+                <label for="product">Product:</label>
+                <select name="product" id="product">
+                    <option value="">Select a product</option>
+                    <option value="cake">Cake</option>
+                    <option value="cupcakes">Cupcakes</option>
+                    <option value="brownies">Brownies</option>
+                    <option value="cookies">Cookies</option>
+                    <option value="dessert-boxes">Dessert Box</option>
+                </select>
+                <br><br>
+                <label for="eventdate">Event Date:</label>
+                <input type="date" name="eventdate" id="eventdate">
+                <br><br>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1">
+                <br><br>
+                <label for="requirements">Additional requirements:</label>
+                <br>
+                <textarea name="requirements" id="requirements" rows="6" cols="40" placeholder="Tell us about your order,event or special requirements"></textarea>
+                <br><br>
+                <button type="submit">
+                    Submit Enquiry
+                </button>
+        
+            </form>
+        </section>
+    </main>
+    <!--Website Footer-->
+    <footer>
+        <p>&copy;2026 Sweet Crumbs Bakery. All rights reserved.</p>
+        <p> <i class="fa-solid fa location-dot"></i>
+            Pretoria|Johannesburg</p>
+        <p> <i class="fa-solid fa-envelope"></i>
+            Email: hello@sweetcrumbs.co.za</p>
+        <p>Follow us</p>
+
+        <p class="social-icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </p>
+    </footer> 
+    
+    
+    
+</body>
+</html>
